@@ -14,6 +14,7 @@ public class Main {
         Notebook commands = new Notebook();
         Shell shell = ShellFactory.createConsoleShell("cmd", "My Notebook", commands);
         shell.commandLoop();
+        System.out.println("GoodBye");
 
     }
 
